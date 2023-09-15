@@ -39,6 +39,7 @@ public class addEmployeePage {
 		
 		WebElement contBtn = driver.findElement(By.id("//*[@id=\"appRoot\"]/div[3]/div[2]/div[1]/div/div[3]/div/div[2]/button[1]"));
 		contBtn.click();
+		
 	}
 	
 	public static void testAddEmployeePageByBatch(WebDriver driver) throws InterruptedException {

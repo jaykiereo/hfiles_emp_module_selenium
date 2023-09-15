@@ -48,8 +48,7 @@ public class seleniumUtils {
         WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"kc-login\"]"));
         loginButton.click();
         return;
-        
-        
+         
 	}
 	
 	public static void testLogin(WebDriver driver) throws InterruptedException {
