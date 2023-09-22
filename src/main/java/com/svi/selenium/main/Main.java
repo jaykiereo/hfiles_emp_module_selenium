@@ -18,7 +18,7 @@ public class Main {
 		WebDriver driver = seleniumUtils.openBrowserAndGetDriver();
 		
 		//Login Page
-		seleniumUtils.testLogin(driver);
+//		seleniumUtils.testLogin(driver);
 //		seleniumUtils.testLogout(driver);
 //		seleniumUtils.testForgotPasswordPage(driver);
 //		seleniumUtils.testForgotPassword(driver);
@@ -40,7 +40,7 @@ public class Main {
 		
 		//Add Employee Page
 //		addEmployeePage.testAddEmployeePage(driver);
-//		addEmployeePage.testAddEmployeeSingleEntry(driver);
+//		addEmployeePage.testSingleEntry(driver);
 //		addEmployeePage.testAddEmployeePageByBatch(driver);
 //		addEmployeePage.testDownloadMappingTemplate(driver);
 //		addEmployeePage.testAddEmployeeByBatch(driver);
@@ -49,7 +49,7 @@ public class Main {
 		//Upload Document Page
 //		uploadDocumentPage.testUploadDocumentPage(driver);
 //		uploadDocumentPage.testDownloadMappingTemplate(driver);
-		uploadDocumentPage.testUploadDocument(driver);
+//		uploadDocumentPage.testUploadDocument(driver);
 		
 		
 		//Generate Page
